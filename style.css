@@ -525,8 +525,25 @@ footer h4{
   }
 }
 
+@media screen and (max-width: 375px){
+
+  #home-title{
+    font-size: 2rem;
+  }
+
+  #subheading{
+  left: 7%;
+    width: 200px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2.3rem;
+    top: 28%;
+}
+}
+
 .nav-active{
     transform: translateX(0%);
+    z-index: 100;
   }
 
 @keyframes navLinkFade{
