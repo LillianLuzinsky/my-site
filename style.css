@@ -121,7 +121,7 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
 
 #hi{
   color: white;
-  background-color: #F037A5;
+  background-color: turquoise;
   font-size: 6rem;
   position: absolute;
   display: flex;
@@ -135,7 +135,7 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
 }
 
 #im{
-  color: #F037A5;
+  color: turquoise;
   font-size: 6rem;
   position: absolute;
   top: 32.5vh;
@@ -160,8 +160,9 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 1px;
-  line-height:4rem;
+  line-height:3rem;
   font-family: 'Open Sans', sans-serif ;
+  margin-top: 20px;
 }
 
 a{
@@ -215,7 +216,7 @@ p{
 }
 
 .project-parra{
-  width: 50%;
+  width: 75%;
 }
 
 #about, #contact, #portfolio{
