@@ -11,7 +11,7 @@ body{
   font-family: century-gothic,sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  background: black;
+  background: #111111;
   color: white;
 }
 
@@ -236,29 +236,32 @@ p{
   margin-bottom: 20px;
 }
 
+.project{
+  margin-bottom: 80px;
+}
+
 .project-link a{
   display: inline-block;
-  color: white;
+  color: turquoise;
   text-decoration: none;
   font-size: 1.5rem;
   margin: 20px 40px 20px 0;
 }
 
 .project-link .sliding-bar:hover::after{
-  background-color: white;
+  background-color: turquoise;
 }
 
 img{
   width: 100%;
   height: auto;
   border-radius: 5px;
-  border: 2px solid #444444;
   margin: 30px 0;
+  box-shadow: 1px 1px 10px black;
 }
 
 video{
   border-radius: 5px;
-  border: 2px solid #444444;
   margin-bottom: 10vh;
 }
 
@@ -272,6 +275,8 @@ video{
 
 #tic-tac-section img{
   width: 300px;
+  border-radius: 30px;
+  border: solid 2px #444444;
 }
 
 #contact-section{
@@ -443,16 +448,9 @@ footer h4{
     width: 100%;
   }
 
-  img, video{
-    border-radius: 25px;
-    border: 1px solid #444444;
-  }
-
   #tic-tac-section img{
     width: 180px;
   }
-
-
 }
 
 @media screen and (max-width: 736px){
@@ -525,7 +523,6 @@ footer h4{
     background-position-x: 75%;
     background-position-y: 10vh;
   }
-
 }
 
 .nav-active{
