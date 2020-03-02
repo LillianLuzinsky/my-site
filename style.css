@@ -1,0 +1,558 @@
+@import url("https://use.typekit.net/fjw0rlz.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: century-gothic,sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  background: black;
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.nav-links li{
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  line-height: 1.5rem;
+}
+
+.sliding-bar::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #F037A5;
+}
+
+.sliding-bar:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+
+nav .nav-links #home-link:hover{
+  color: #F037A5;
+} 
+
+nav .nav-links #about-link:hover{
+  color: yellow;
+} 
+
+nav .nav-links #about-link.sliding-bar:hover::after{
+  background-color: yellow;
+} 
+
+nav .nav-links #portfolio-link:hover{
+  color: turquoise;
+} 
+
+nav .nav-links #portfolio-link.sliding-bar:hover::after{
+  background-color: turquoise;
+} 
+
+nav .nav-links #contact-link:hover{
+  color: white;
+} 
+
+nav .nav-links #contact-link.sliding-bar:hover::after{
+  background-color: white;
+} 
+
+.burger{
+  display: none;
+  z-index: 2;
+}
+
+.burger div{
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin: 7px;
+  transition: all 0.3s ease;
+}
+
+.banner-area{
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/Homepage_photo.jpg') center no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+#hi{
+  color: white;
+  background-color: #F037A5;
+  font-size: 6rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15vh;
+  left: 14vw;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+}
+
+#im{
+  color: #F037A5;
+  font-size: 6rem;
+  position: absolute;
+  top: 32.5vh;
+  left: 15vw;
+}
+
+#lillian{
+  color: #F037A5;
+  font-size: 6rem;
+  position: absolute;
+  top: 32.5vh;
+  left: 370px;
+  letter-spacing: 2.5px;
+}
+
+#subheading{
+  color: black;
+  position: absolute;
+  top: 350px;
+  left: 15vw;
+  width: 500px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height:4rem;
+  font-family: 'Open Sans', sans-serif ;
+}
+
+a{
+  font-family: 'Open Sans', sans-serif ;
+}
+
+button{
+  color: #8e8e8e;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: 1px solid #8e8e8e;
+  transition: 0.5s;
+  background: transparent;
+}
+
+button:hover{
+  background: #8e8e8e;
+  color: white;
+  transition: 0.5s;
+}
+
+video, button:focus {outline:0;}
+
+#resume-button{
+  position: absolute;
+  left: 15vw;
+  top: 570px;
+}
+
+.title{
+  color: white;
+  font-size: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: 400;
+  width: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  line-height: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.project-parra{
+  width: 50%;
+}
+
+#about, #contact, #portfolio{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15vw;
+}
+
+#portfolio{
+  height: auto;
+}
+
+#portfolio h2{
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.project-link a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px 40px 20px 0;
+}
+
+.project-link .sliding-bar:hover::after{
+  background-color: white;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  border: 2px solid #444444;
+  margin: 30px 0;
+}
+
+video{
+  border-radius: 50px;
+  border: 2px solid #444444;
+  margin-bottom: 10vh;
+}
+
+#tic-tac-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+#tic-tac-section img{
+  width: 300px;
+}
+
+#contact-section{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+#contact-section h1{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.email h1{
+  color: yellow;
+}
+
+.mobile h1{
+  color: turquoise;
+}
+
+.follow h1{
+  color: #F037A5;
+}
+
+#contact a{
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.email a, .mobile a, .follow a{
+  color: white;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 0;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.email a:hover{
+  color: yellow;
+}
+
+.mobile a:hover{
+  color: turquoise;
+}
+
+.follow a:hover{
+  color: #F037A5;
+}
+
+.email .sliding-bar:hover::after{
+  background-color: yellow;
+}
+
+.mobile .sliding-bar:hover::after{
+  background-color: turquoise;
+}
+
+.follow .sliding-bar:hover::after{
+  background-color: #F037A5;
+}
+
+footer h4{
+  font-weight: 400;
+  color: #444444;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 1024px){
+
+  nav{
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 25vh;
+  }
+  
+  .nav-links a{
+  color: black;
+  text-decoration: none;
+  }
+
+  .burger{
+    margin-right: 5%;
+    margin-top: 5vh;
+  }
+
+  nav .nav-links #home-link{
+    color: #F037A5;
+  }
+
+  nav .nav-links #about-link{
+    color: yellow;
+  }
+
+  nav .nav-links #portfolio-link{
+    color: turquoise;
+  }
+
+  nav .nav-links #contact-link{
+    color: white;
+  }
+
+  #hi, #im, #lillian{
+    font-size: 3.5rem;
+    position: fixed;
+    z-index: 2;
+    color: white;
+  }
+
+  #hi{
+    top: 2vh;
+    left: 5%;
+    width: 75px;
+    height: 75px;
+    color: black;
+    background: #F037A5;
+  }
+
+  #im, #lillian{
+    top: 2vh;
+    left: 18%;
+    letter-spacing: 2px;
+  }
+
+  #lillian{
+    top: 10vh;
+  }
+
+  #subheading{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 30%;
+    left: 18%;
+    width: 250px;
+  }
+
+  #about, #porfolio, #contact{
+  height: 100vh;
+  padding: 10vh 58px;
+  }
+
+  .title{
+    margin-top: 15vh;
+  }
+
+  #home{
+    margin-bottom: -20vh;
+  }
+
+  #about, #portfolio{
+    height: auto;
+    margin-bottom: -20vh;
+  }
+
+  #portfolio{
+    padding: 58px;
+  }
+
+  .project-parra{
+    width: 100%;
+  }
+
+  img, video{
+    border-radius: 25px;
+    border: 1px solid #444444;
+  }
+
+  #tic-tac-section img{
+    width: 180px;
+  }
+
+
+}
+
+@media screen and (max-width: 736px){
+
+  body{
+    overflow-x: hidden;
+    cursor: pointer;
+    height: auto;
+  }
+
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 0;
+    margin: 0;
+    background: rgb(11, 11, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform .5s ease-in;
+  }
+
+  .nav-links li{
+    opacity: 0;
+    color: black;
+  }
+
+  .burger{
+    display: block;
+  }
+  
+  #hi, #im, #lillian{
+    font-size: 4rem;
+  }
+
+  #hi{
+    left: 50px;
+    width: 80px;
+    height: 80px;
+  }
+
+  #im, #lillian{
+    top: 1.7vh;
+    left: 145px;
+    letter-spacing: 3px;
+  }
+
+  #lillian{
+    top: 12.5vh;
+    left: 58px;
+  }
+
+  #subheading{
+    left: 10%;
+    width: 250px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+  }
+
+  #resume-button{
+    left: 58px;
+    padding: 10px 25px;
+  }
+
+  #home{
+    background-position-x: 75%;
+    background-position-y: 10vh;
+  }
+
+}
+
+.nav-active{
+    transform: translateX(0%);
+  }
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 10px);
+  height: 4px;
+  background: white;
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -10px);
+  height: 4px;
+  background: white;
+}
