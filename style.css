@@ -532,18 +532,23 @@ footer h4{
   }
 
   #subheading{
-  left: 7%;
-    width: 200px;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    line-height: 2.3rem;
-    top: 28%;
-}
+    left: 7%;
+      width: 200px;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      line-height: 2.3rem;
+      top: 28%;
+  }
+
+  #tic-tac-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .nav-active{
     transform: translateX(0%);
-    z-index: 100;
   }
 
 @keyframes navLinkFade{
