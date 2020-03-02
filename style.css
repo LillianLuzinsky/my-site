@@ -251,13 +251,13 @@ p{
 img{
   width: 100%;
   height: auto;
-  border-radius: 50px;
+  border-radius: 5px;
   border: 2px solid #444444;
   margin: 30px 0;
 }
 
 video{
-  border-radius: 50px;
+  border-radius: 5px;
   border: 2px solid #444444;
   margin-bottom: 10vh;
 }
