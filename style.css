@@ -513,13 +513,34 @@ footer h4{
   }
 
   #resume-button{
-    left: 58px;
+    left: 10%;
     padding: 10px 25px;
+    background: #8e8e8e;
+    color: white;
   }
 
   #home{
     background-position-x: 75%;
     background-position-y: 10vh;
+  }
+
+  .title{
+    font-size: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20vh;
+    margin-bottom: 2vh;
+  }
+
+  #portfolio h2{
+    font-size: 7vh;
+  }
+
+  #tic-tac-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -575,8 +596,6 @@ footer h4{
   }
 
   button{
-    background: #8e8e8e;
-    color: white;
     font-size: 1rem;
     margin-left: -10%;
     padding: 5px 20px;
@@ -595,19 +614,6 @@ footer h4{
     font-size: 1rem;
   }
 
-  .title{
-    font-size: 3.5rem;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 25vh;
-    margin-bottom: 2vh;
-  }
-
-  #portfolio h2{
-    font-size: 2rem;
-  }
-
   .project-link a, #contact-section a{
     font-size: 1.2rem;
   }
@@ -624,12 +630,6 @@ footer h4{
 
   .project{
     margin-bottom: 30px;
-  }
-
-  #tic-tac-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 
