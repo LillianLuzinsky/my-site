@@ -19,6 +19,11 @@ html{
   scroll-behavior: smooth;
 }
 
+.scroll-touch {
+  scroll-behavior: touch;
+  -webkit-overflow-scrolling: touch;
+}
+
 nav{
   position: fixed;
   display: flex;
