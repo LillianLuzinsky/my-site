@@ -524,7 +524,16 @@ footer h4{
 
 @media screen and (max-width: 360px){
 
+  .burger{
+    margin-right: 100px;
+  }
+
+  nav{
+    position: fixed;
+  }
+
   #hi, #im, #lillian{
+    position: fixed;
     margin-top: 5px;
     font-size: 2.7rem;
     letter-spacing: 3px;
