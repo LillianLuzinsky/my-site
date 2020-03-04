@@ -537,6 +537,10 @@ footer h4{
   padding: 10%;
   }
 
+  #about{
+    height: auto;
+  }
+
   .title{
     font-size: 10vh;
     display: flex;
