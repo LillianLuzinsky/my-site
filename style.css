@@ -524,9 +524,24 @@ footer h4{
 
 @media screen and (max-width: 360px){
 
-  #home-title{
-    font-size: 2rem;
+  #hi, #im, #lillian{
+    margin-top: 5px;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
   }
+
+  #hi{
+    width: 65px;
+    height: 65px;
+  }
+
+  #im{
+    left: 125px;
+    top: 18px;
+  }
+
+
+
 
   #subheading{
     left: 7%;
