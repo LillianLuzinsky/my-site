@@ -488,6 +488,12 @@ footer h4{
     width: 100%;
   }
 
+  #tic-tac-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #tic-tac-section img{
     width: 180px;
     height: 360px;
