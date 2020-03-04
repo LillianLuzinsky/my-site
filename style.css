@@ -522,7 +522,7 @@ footer h4{
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 360px){
 
   #home-title{
     font-size: 2rem;
@@ -530,12 +530,27 @@ footer h4{
 
   #subheading{
     left: 7%;
-      width: 200px;
-      font-size: 1.2rem;
-      letter-spacing: 1px;
-      line-height: 2.3rem;
-      top: 28%;
+    width: 200px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2.3rem;
+    top: 28%;
   }
+
+  button{
+  background: #8e8e8e;
+  color: white;
+  font-size: 1rem;
+  margin-left: -10%;
+  padding: 5px 20px;
+  margin-top: -15%;
+}
+
+button:hover{
+  background: #8e8e8e;
+  color: white;
+  transition: 0.5s;
+}
 
   #tic-tac-section{
     flex-direction: column;
