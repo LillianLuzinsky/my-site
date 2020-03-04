@@ -120,11 +120,14 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
   background-color: white;
 }
 
+#hi, #im, #lillian{
+  font-size: 14vh;
+  position: absolute;
+}
+
 #hi{
   color: white;
   background-color: turquoise;
-  font-size: 6rem;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,47 +140,39 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
 
 #im{
   color: turquoise;
-  font-size: 6rem;
-  position: absolute;
   top: 32.5vh;
   left: 15vw;
 }
 
 #lillian{
   color: #F037A5;
-  font-size: 6rem;
-  position: absolute;
   top: 32.5vh;
-  left: 370px;
+  left: 27vw;
   letter-spacing: 2.5px;
 }
 
 #subheading{
   color: black;
   position: absolute;
-  top: 350px;
+  top: 50vh;
   left: 15vw;
   width: 500px;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 3.2vh;
   letter-spacing: 1px;
   line-height:3rem;
   font-family: 'Open Sans', sans-serif ;
-  margin-top: 20px;
-}
-
-a{
-  font-family: 'Open Sans', sans-serif ;
+  margin: 2vh 0;
 }
 
 button{
   color: #8e8e8e;
-  font-size: 20px;
+  font-size: 3.2vh;
   border: none;
   cursor: pointer;
   padding: 10px 30px;
   border-radius: 100px;
-  border: 1px solid #8e8e8e;
+  border: 1.5px solid #8e8e8e;
   transition: 0.5s;
   background: transparent;
 }
@@ -193,12 +188,12 @@ video, button:focus {outline:0;}
 #resume-button{
   position: absolute;
   left: 15vw;
-  top: 570px;
+  top: 77.5vh;
 }
 
 .title{
   color: white;
-  font-size: 6rem;
+  font-size: 14vh;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -417,29 +412,30 @@ footer h4{
   }
 
   #hi, #im, #lillian{
-    font-size: 3.5rem;
+    font-size: 9vh;
     position: fixed;
     z-index: 2;
     color: white;
+    letter-spacing: 2px;
   }
 
   #hi{
     top: 2vh;
-    left: 5%;
-    width: 75px;
-    height: 75px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
     color: black;
     background: #F037A5;
   }
 
-  #im, #lillian{
+  #im{
     top: 2vh;
-    left: 18%;
-    letter-spacing: 2px;
+    left: 150px;
   }
 
   #lillian{
-    top: 10vh;
+    left: 60px;
+    top: 12vh;
   }
 
   #subheading{
@@ -452,7 +448,7 @@ footer h4{
 
   #about, #porfolio, #contact{
   height: 100vh;
-  padding: 10vh 58px;
+  padding: 10%;
   }
 
   .title{
@@ -482,27 +478,6 @@ footer h4{
 }
 
 @media screen and (max-width: 736px){
-
-  #hi, #im, #lillian{
-    font-size: 4rem;
-  }
-
-  #hi{
-    left: 50px;
-    width: 80px;
-    height: 80px;
-  }
-
-  #im, #lillian{
-    top: 1.7vh;
-    left: 145px;
-    letter-spacing: 3px;
-  }
-
-  #lillian{
-    top: 12.5vh;
-    left: 58px;
-  }
 
   #subheading{
     left: 10%;
