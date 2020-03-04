@@ -561,7 +561,7 @@ footer h4{
   }
 }
 
-@media (max-width: 360px){
+@media (min-height: 600px) and (max-width: 360px){
 
   nav{
     position: fixed;
@@ -592,6 +592,7 @@ footer h4{
   }
 
   #hi{
+    top: 17px;
     width: 65px;
     height: 65px;
     font-weight: 700;
@@ -613,10 +614,10 @@ footer h4{
   }
 
   button{
-    font-size: 1rem;
+    font-size: 1vh;
     margin-left: -10%;
     padding: 5px 20px;
-    margin-top: -80px;
+    margin-top: 8vh;
   }
 
   #about, #contact, #portfolio{
