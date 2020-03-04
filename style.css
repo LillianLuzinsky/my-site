@@ -494,10 +494,10 @@ footer h4{
     align-items: center;
   }
 
-  /* #tic-tac-section img{
+  #tic-tac-section img{
     width: 180px;
-    height: 360px;
-  } */
+    height: auto;
+  }
 
   #contact-section{
     justify-content: space-between;
@@ -559,12 +559,6 @@ footer h4{
 
   #portfolio h2{
     font-size: 7vh;
-  }
-
-  #tic-tac-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 
