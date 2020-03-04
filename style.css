@@ -35,7 +35,7 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   font-weight: 700;
   letter-spacing: 10px;
 }
@@ -49,6 +49,7 @@ nav{
   color: white;
   text-decoration: none;
   line-height: 1.5rem;
+
 }
 
 .sliding-bar::after{
@@ -522,35 +523,47 @@ footer h4{
   }
 }
 
-@media screen and (max-width: 360px){
-
-  .burger{
-    margin-right: 100px;
-  }
+@media (max-width: 360px){
 
   nav{
     position: fixed;
   }
 
+  .nav-links{
+    height: 100vh;
+    width: 65vw;
+    padding-top: 50px;
+    font-size: 1rem;
+    text-align: right;
+    align-items: flex-end;
+    background: black;
+  }
+
+  .burger{
+    margin-right: 7%;
+    margin-top: 10%;
+  }
+
   #hi, #im, #lillian{
     position: fixed;
     margin-top: 5px;
-    font-size: 2.7rem;
+    font-size: 3rem;
     letter-spacing: 3px;
+    left: 7%;
+    color: #F037A5;
   }
 
   #hi{
     width: 65px;
     height: 65px;
+    font-weight: 700;
+    color: black;
   }
 
   #im{
-    left: 125px;
+    left: 100px;
     top: 18px;
   }
-
-
-
 
   #subheading{
     left: 7%;
@@ -562,19 +575,42 @@ footer h4{
   }
 
   button{
-  background: #8e8e8e;
-  color: white;
-  font-size: 1rem;
-  margin-left: -10%;
-  padding: 5px 20px;
-  margin-top: -15%;
+    background: #8e8e8e;
+    color: white;
+    font-size: 1rem;
+    margin-left: -10%;
+    padding: 5px 20px;
+    margin-top: -20%;
+  }
+
+  #about, #contact, #portfolio{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 7vw;
 }
 
-button:hover{
-  background: #8e8e8e;
-  color: white;
-  transition: 0.5s;
-}
+  p{
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 3.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 25vh;
+    margin-bottom: 2vh;
+  }
+
+  #portfolio h2{
+    font-size: 2rem;
+  }
+
+  .project-link a, .contact-section a{
+    font-size: 1.2rem;
+  }
 
   #tic-tac-section{
     flex-direction: column;
@@ -590,7 +626,7 @@ button:hover{
 @keyframes navLinkFade{
   from{
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(50%);
   }
   to{
     opacity: 1;
