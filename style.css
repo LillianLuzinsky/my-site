@@ -494,10 +494,10 @@ footer h4{
     align-items: center;
   }
 
-  #tic-tac-section img{
+  /* #tic-tac-section img{
     width: 180px;
     height: 360px;
-  }
+  } */
 
   #contact-section{
     justify-content: space-between;
