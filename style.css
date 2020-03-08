@@ -11,8 +11,8 @@ body{
   font-family: century-gothic,sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  background: #111111;
   color: white;
+  background: #111111;
 }
 
 html{
@@ -107,8 +107,9 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
 }
 
 .banner-area{
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
+    background: #111111;
 }
 
 .progress-container {
@@ -357,6 +358,25 @@ video{
   background-color: #F037A5;
 }
 
+main{
+  position: relative;
+  height: auto;
+  margin-bottom: 50vh;
+}
+  
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  background: #252a47;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+  height: 50vh;
+}
+
 footer h4{
   font-weight: 400;
   color: #444444;
@@ -580,7 +600,7 @@ footer h4{
   }
 }
 
-@media (min-height: 360px){
+@media (min-height: 600px) and (max-width: 360px){
 
   nav{
     position: fixed;
