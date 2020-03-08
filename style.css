@@ -592,7 +592,7 @@ footer h4{
   }
 }
 
-@media (max-width: 640px){
+/* @media (max-width: 640px){
 
   #hi{
     width: 45px;
@@ -741,7 +741,7 @@ footer h4{
   .project{
     margin-bottom: 30px;
   }
-}
+} */
 
 .nav-active{
     transform: translateX(0%);
