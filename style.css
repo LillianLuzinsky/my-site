@@ -239,10 +239,6 @@ p{
   padding: 0 15vw;
 }
 
-#portfolio{
-  height: auto;
-}
-
 #portfolio h2{
   font-size: 3.5rem;
   margin-bottom: 20px;
@@ -509,10 +505,6 @@ footer h4{
     margin-top: 20vh;
   }
 
-  #home{
-    margin-bottom: -20vh;
-  }
-
   #about, #portfolio{
     height: auto;
     margin-bottom: -20vh;
@@ -565,7 +557,7 @@ footer h4{
   }
 
   #resume-button{
-    top: 67%;
+    top: 75%;
     font-size: 2.5vh;
     padding: 8px 20px;
     background: #8e8e8e;
@@ -574,7 +566,7 @@ footer h4{
 
   #home{
     background-position-x: 75%;
-    background-position-y: 10vh;
+    background-position-y: 15vh;
   }
 
   #about, #porfolio, #contact{
@@ -600,7 +592,7 @@ footer h4{
   }
 }
 
-@media (min-height: 600px) and (max-width: 360px){
+@media (max-width: 360px){
 
   nav{
     position: fixed;
@@ -649,23 +641,21 @@ footer h4{
     font-size: 1.2rem;
     letter-spacing: 1px;
     line-height: 2.3rem;
-    top: 28%;
   }
 
   button{
     font-size: 1vh;
     margin-left: -10%;
     padding: 5px 20px;
-    margin-top: 8vh;
   }
 
   #about, #contact, #portfolio{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 7vw;
-}
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7vw;
+  }
 
   p{
     font-size: 1rem;
