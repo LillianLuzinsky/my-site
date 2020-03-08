@@ -603,16 +603,21 @@ footer h4{
   }
 }
 
-/* @media (max-width: 640px){
+@media (max-width: 640px){
+
+  #hi, #im, #lillian{
+    font-size: 2rem;
+  }
 
   #hi{
     width: 45px;
     height: 45px;
-    top: 2%;
+    top: 8px;
     left: 60px;
   }
 
   #im{
+    top: 12px;
     left: 120px;
   }
 
@@ -623,15 +628,16 @@ footer h4{
   }
 
   #subheading{
-    width: 50%;
-    top: 38vh;
-    font-size: 4.5vh;
+    width: 60%;
+    top: 30vh;
+    font-size: 1.2rem;
+    line-height: 3rem;
     line-height: 7vh;
     letter-spacing: 1px;
   }
 
   #resume-button{
-    top: 80%;
+    top: 250px;
     font-size: 4vh;
     padding: 8px 20px;
     background: #8e8e8e;
@@ -752,7 +758,7 @@ footer h4{
   .project{
     margin-bottom: 30px;
   }
-} */
+}
 
 .nav-active{
     transform: translateX(0%);
