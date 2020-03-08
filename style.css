@@ -580,7 +580,7 @@ footer h4{
   }
 }
 
-@media (min-height: 600px) and (max-width: 360px){
+@media (min-height: 360px){
 
   nav{
     position: fixed;

@@ -1,32 +1,6 @@
 @import url("https://use.typekit.net/fjw0rlz.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
-@keyframes navLinkFade{
-  from{
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.toggle .line1{
-  transform: rotate(-45deg) translate(-5px, 10px);
-  height: 4px;
-  background: white;
-}
-
-.toggle .line2{
-  opacity: 0;
-}
-.toggle .line3{
-  transform: rotate(45deg) translate(-5px, -10px);
-  height: 4px;
-  background: white;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -50,7 +24,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 10vh;
+  min-height: 25vh;
   text-transform: uppercase;
   letter-spacing: 5px;
   background-color: black;
@@ -119,11 +93,6 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
   background-color: white;
 } 
 
-.burger{
-  display: none;
-  z-index: 2;
-}
-
 .burger div{
   width: 30px;
   height: 3px;
@@ -131,6 +100,12 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
   margin: 7px;
   transition: all 0.3s ease;
 }
+
+.burger{
+    display: block;
+    margin-right: 5%;
+    margin-top: 5vh;
+  }
 
 .banner-area{
     height: 100vh;
@@ -150,4 +125,46 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
   height: 2px;
   background: #F037A5;
   width: 0%;
+}
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 10px);
+  height: 4px;
+  background: white;
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -10px);
+  height: 4px;
+  background: white;
 }
