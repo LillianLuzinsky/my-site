@@ -753,6 +753,7 @@ footer p{
   .title{
     font-size: 9vh;
     padding-top: 10vh;
+    margin-bottom: 1rem;
   }
 
   #about, #contact{
@@ -774,6 +775,11 @@ footer p{
 
   #tic-tac-section{
     margin-bottom: 35px;
+  }
+
+  #contact-section h1{
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
   }
   
   p, footer p{
