@@ -357,7 +357,7 @@ video{
 main{
   position: relative;
   height: auto;
-  margin-bottom: 50vh;
+  margin-bottom: 60vh;
 }
   
 footer {
@@ -366,18 +366,20 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -10;
+  z-index: -1;
   padding: 5vh 15vw;
   background: #F037A5;
-  height: 50vh;
+  height: auto;
   color: #111111;
 }
 
-footer h4{
-  font-weight: 400;
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 5vh;
+footer h1{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+footer p{
+  line-height: 2.5rem;
 }
 
 @media screen and (max-width: 1024px){
@@ -531,6 +533,10 @@ footer h4{
   #contact-section{
     justify-content: space-between;
     padding-bottom: 40px;
+  }
+
+  main{
+    margin-bottom: 75vh;
   }
 }
 
