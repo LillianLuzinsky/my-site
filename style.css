@@ -380,6 +380,7 @@ footer h1{
 
 footer p{
   line-height: 2.5rem;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1024px){
