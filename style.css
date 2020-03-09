@@ -361,21 +361,20 @@ main{
 }
   
 footer {
+  letter-spacing: 3px;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -10;
-  background: #252a47;
-  display: grid;
-  place-items: center;
-  padding: 50px;
+  padding: 5vh 15vw;
+  background: #F037A5;
   height: 50vh;
+  color: #111111;
 }
 
 footer h4{
   font-weight: 400;
-  color: #444444;
   position: absolute;
   bottom: 0;
   padding-bottom: 5vh;
@@ -607,9 +606,11 @@ footer h4{
 
   #hi, #im, #lillian{
     font-size: 2rem;
+    color: #F037A5;
   }
 
   #hi{
+    color: black;
     width: 45px;
     height: 45px;
     top: 8px;
@@ -674,11 +675,7 @@ footer h4{
 
 
 @media (max-width: 360px){
-
-  nav{
-    position: fixed;
-  }
-
+  
   .nav-links{
     height: 100vh;
     width: 65vw;
@@ -695,69 +692,50 @@ footer h4{
   }
 
   #hi, #im, #lillian{
-    margin-top: 5px;
-    font-size: 3rem;
-    letter-spacing: 3px;
-    left: 7%;
-    color: #F037A5;
+    font-size: 3.2rem;
   }
 
   #hi{
-    top: 17px;
+    left: 30px;
+    top: 20px;
     width: 65px;
     height: 65px;
-    font-weight: 700;
-    color: black;
   }
 
   #im{
-    left: 100px;
-    top: 18px;
+    top: 20px;
+    left: 110px;
   }
 
-  #subheading{
-    left: 7%;
-    width: 200px;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    line-height: 2.3rem;
+  #lillian{
+    top: 85px;
+    left: 35px;
   }
 
-  button{
-    font-size: 1vh;
-    margin-left: -10%;
-    padding: 5px 20px;
+  #resume-button{
+    top: 520px;
+    left: 30px;
+    font-size: 3vh;
   }
 
-  #about, #contact, #portfolio{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 7vw;
+  .title{
+    font-size: 9vh;
+    padding-top: 10vh;
+  }
+  
+  #about{
+    margin-bottom: 0;
+  }
+
+  #portfolio{
+    margin-bottom: -5vh;
   }
 
   p{
     font-size: 1rem;
+    line-height: 2rem;
   }
 
-  .project-link a, #contact-section a{
-    font-size: 1.2rem;
-  }
-
-  #contact-section{
-    justify-content: space-between;
-    padding-bottom: 40px;
-  }
-
-  #contact-section h1{
-    font-size: 1.7rem;
-    padding-top: 10px;
-  }
-
-  .project{
-    margin-bottom: 30px;
-  }
 }
 
 .nav-active{
