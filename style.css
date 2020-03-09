@@ -762,8 +762,21 @@ footer p{
   #portfolio{
     padding: 5vh 35px;
   }
+
+  #portfolio h2{
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+
+  .project{
+    margin-bottom: 0;
+  }
+
+  #tic-tac-section{
+    margin-bottom: 35px;
+  }
   
-  p{
+  p, footer p{
     font-size: 1rem;
     line-height: 2rem;
   }
