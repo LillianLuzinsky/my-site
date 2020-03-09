@@ -676,7 +676,7 @@ footer p{
   }
 
   #contact{
-    height: 140vh;
+    height: auto;
   }
 
   #contact-section h1{
@@ -687,15 +687,10 @@ footer p{
     margin-bottom: 30px;
   }
 
-  main{
-    margin-bottom: 0;
-
-  }
-
   footer{
     position: relative;
     padding: 0 65px;
-    padding-top: 10vh;
+    margin-top: -70vh;
   }
 
   footer p{
@@ -722,6 +717,10 @@ footer p{
   .burger{
     margin-right: 7%;
     margin-top: 10%;
+  }
+
+  .title{
+    margin-top: 10vh;
   }
 
   #hi, #im, #lillian{
@@ -755,14 +754,22 @@ footer p{
     font-size: 9vh;
     padding-top: 10vh;
   }
-  
-  #about{
+
+  #about, #contact{
     margin-bottom: 0;
   }
 
+  #portfolio{
+    padding: 5vh 35px;
+  }
+  
   p{
     font-size: 1rem;
     line-height: 2rem;
+  }
+
+  footer{
+    padding: 0 35px;
   }
 
 }
