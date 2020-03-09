@@ -606,6 +606,11 @@ footer p{
   #portfolio h2{
     font-size: 7vh;
   }
+
+  #contact{
+    margin-top: 5vh;
+    padding-top: -5vh;
+  }
 }
 
 @media (max-width: 640px){
@@ -731,10 +736,6 @@ footer p{
   
   #about{
     margin-bottom: 0;
-  }
-
-  #portfolio{
-    margin-bottom: -5vh;
   }
 
   p{
