@@ -391,8 +391,8 @@ footer h1{
 }
 
 footer p{
-  font-size: 1.5vw;
-  line-height: 6vh;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   letter-spacing: 1px;
 }
 
