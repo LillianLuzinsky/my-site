@@ -482,8 +482,8 @@ footer p{
   #hi{
     top: 15px;
     left: 40px;
-    width: 8.5%;
-    height: 11%;
+    width: 90px;
+    height: 90px;
     color: black;
     background: #F037A5;
   }
@@ -571,25 +571,28 @@ footer p{
 
 @media screen and (max-width: 768px){
 
+  .progress-container, .progress-bar {
+    margin-top: 100px;
+  }
+
   #hi, #im, #lillian{
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   #hi{
-    top: 3%;
-    left: 9%;
-    width: 13%;
-    height: 10%;
+    left: 70px;
+    top: 20px;
+    width: 85px;
+    height: 85px;
   }
 
   #im{
-    left:25%;
-    top: 3%;
+    left: 170px;
+    top: 30px;
   }
 
   #lillian{
-    left: 10%;
-    top: 130px;
+    left: 75px;
   }
 
   #subheading{
