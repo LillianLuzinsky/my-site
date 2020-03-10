@@ -168,8 +168,8 @@ Burger menu
   align-items: center;
   top: 15vh;
   left: 14vw;
-  width: 20vh;
-  height: 20vh;
+  width: 18vh;
+  height: 18vh;
   border-radius: 300px;
 }
 
@@ -195,7 +195,7 @@ Burger menu
   font-weight: 400;
   font-size: 3.2vh;
   letter-spacing: 1px;
-  line-height:6.5vh;
+  line-height:7vh;
   font-family: 'Open Sans', sans-serif ;
   margin: 2vh 0;
 }
