@@ -269,7 +269,7 @@ p{
   display: inline-block;
   color: turquoise;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 3.5vh;
   margin: 20px 40px 20px 0;
 }
 
@@ -329,7 +329,7 @@ img{
 
 #contact a{
   font-weight: 400;
-  font-size: 1.8vw;
+  font-size: 3.5vh;
   letter-spacing: 2px;
   text-decoration: none;
 }
@@ -514,17 +514,17 @@ footer p{
   }
 
   #about, #porfolio, #contact{
-  height: 100vh;
-  padding: 5%;
+    padding: 5%;
+    height: auto;
+    margin-bottom: -10vh;
   }
 
   .title{
     margin-top: 20vh;
   }
 
-  #about, #portfolio{
-    height: auto;
-    margin-bottom: -20vh;
+  p, footer p{
+    font-size: 2.5vh;
   }
 
   #portfolio{
@@ -544,6 +544,11 @@ footer p{
   #tic-tac-section img{
     width: 180px;
     height: auto;
+  }
+
+  #contact{
+    height: 100vh;
+    padding-bottom: 0;
   }
 
   #contact-section{
@@ -602,12 +607,7 @@ footer p{
   }
 
   #about, #porfolio, #contact{
-  height: 100vh;
   padding: 10%;
-  }
-
-  #about{
-    height: auto;
   }
 
   .title{
@@ -619,13 +619,16 @@ footer p{
     margin-bottom: 2vh;
   }
 
+   p, footer p{
+    font-size: 2vh;
+  }
+
   #portfolio h2{
     font-size: 7vh;
   }
 
   #contact{
-    margin-top: 5vh;
-    padding-top: -5vh;
+    margin-top: -15vh;
   }
 }
 
