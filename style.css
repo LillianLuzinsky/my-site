@@ -661,27 +661,35 @@ footer p{
     background: #F037A5;
   }
 
+  nav{
+    height: 90px;
+  }
+
+  .progress-container, .progress-bar {
+    margin-top: 45px;
+  }
+
   #hi, #im, #lillian{
-    font-size: 9vh;
+    font-size: 2rem;;
     color: #F037A5;
   }
 
   #hi{
     color: black;
-    width: 6.5%;
-    height: 11%;
-    top: 2%;
+    width: 43px;
+    height: 43px;
+    top: 8px;
     left: 60px;
   }
 
   #im{
-    top: 2%;
-    left: 115px;
+    top: 10px;
+    left: 120px;
   }
 
   #lillian{
     letter-spacing: 3px;
-    top: 12vh;
+    top: 50px;
     left: 65px;
   }
 
