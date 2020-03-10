@@ -1,3 +1,5 @@
+
+
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
@@ -22,6 +24,8 @@ const navSlide = () => {
 };
 
 navSlide();
+
+console.log("Hello");
 
 window.onscroll = function() {
   progressBar();

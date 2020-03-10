@@ -1,6 +1,15 @@
+/************************************
+Menu
+Navigation: 80
+Burger menu: 102
+*************************************/
+
+
 @import url("https://use.typekit.net/fjw0rlz.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+
+/* Site-wide styles*/
 *{
   margin: 0;
   padding: 0;
@@ -18,12 +27,13 @@ body{
 html{
   scroll-behavior: smooth;
 }
-
+/* Navigation styles here*/
 nav{
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Has to be min 10vh for responsive.*/
   min-height: 10vh;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -92,6 +102,16 @@ nav .nav-links #contact-link:hover{
 nav .nav-links #contact-link.sliding-bar:hover::after{
   background-color: white;
 } 
+
+/***********************************************
+
+
+Burger menu 
+
+
+***********************************************/
+
+
 
 .burger{
   display: none;
