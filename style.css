@@ -409,9 +409,13 @@ footer p{
   nav{
     justify-content: flex-end;
     align-items: flex-start;
-    height: 25vh;
+    height: 200px;
   }
-  
+
+  .progress-container, .progress-bar {
+    margin-top: 5px;
+  }
+
   .nav-links{
     position: absolute;
     right: 0px;
@@ -468,7 +472,7 @@ footer p{
   }
 
   #hi, #im, #lillian{
-    font-size: 9.5vh;
+    font-size: 4.5rem;
     position: fixed;
     z-index: 2;
     color: white;
@@ -476,8 +480,8 @@ footer p{
   }
 
   #hi{
-    top: 2%;
-    left: 5%;
+    top: 15px;
+    left: 40px;
     width: 8.5%;
     height: 11%;
     color: black;
@@ -485,13 +489,13 @@ footer p{
   }
 
   #im{
-    top: 1.25%;
-    left: 160px;
+    top: 12px;
+    left: 150px;
   }
 
   #lillian{
-    left: 5%;
-    top: 12%;
+    left: 50px;
+    top: 100px;
   }
 
   #subheading{
