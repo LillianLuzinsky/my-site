@@ -302,9 +302,10 @@ img{
   height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: left;
   letter-spacing: 2px;
+  padding-bottom: 1vh;
 }
 
 #contact-section h1{
@@ -391,7 +392,7 @@ footer h1{
 }
 
 footer p{
-  font-size: 1.5rem;
+  font-size:1.5vw;
   line-height: 2.5rem;
   letter-spacing: 1px;
 }
