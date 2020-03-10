@@ -610,8 +610,12 @@ footer p{
     background-position-y: 15vh;
   }
 
-  #about, #portfolio #contact{
-  padding: 10%;
+  #about, #contact{
+    padding: 10%;
+  }
+
+  #portfolio{
+    padding: 10%;
   }
 
   .title{
