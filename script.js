@@ -25,8 +25,6 @@ const navSlide = () => {
 
 navSlide();
 
-console.log("Hello, I hope you enjoyed my portfolio. I'm still learning how to make them responsive and accesible. I welcome any constructive feedback. Have a good day :)");
-
 window.onscroll = function() {
   progressBar();
 };
@@ -39,3 +37,7 @@ function progressBar() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+console.log(
+  "Hello, I hope you enjoyed my portfolio. I'm still learning how to make them responsive and accesible. I welcome any constructive feedback. Have a good day :)"
+);
