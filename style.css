@@ -559,6 +559,10 @@ footer p{
   main{
     margin-bottom: 75vh;
   }
+
+  footer{
+    padding: 2% 5%;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -629,6 +633,10 @@ footer p{
 
   #contact{
     margin-top: -15vh;
+  }
+
+  footer{
+    padding: 5% 10%;
   }
 }
 
