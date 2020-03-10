@@ -135,7 +135,7 @@ Burger menu
 .progress-container {
   margin-top: 10vh;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background:transparent;
   position: fixed;
   z-index: 3;
