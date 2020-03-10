@@ -213,6 +213,7 @@ Burger menu
   position: absolute;
   left: 15vw;
   bottom: 10vh;
+  height: 60px;
 }
 
 #resume-button:hover{
