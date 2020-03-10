@@ -572,19 +572,19 @@ footer p{
   }
 
   #hi{
-    top: 30px;
-    left: 65px;
-    width: 100px;
-    height: 100px;
+    top: 3%;
+    left: 9%;
+    width: 13%;
+    height: 10%;
   }
 
   #im{
-    left:180px;
+    left:25%;
     top: 40px;
   }
 
   #lillian{
-    left: 75px;
+    left: 10%;
     top: 130px;
   }
 
@@ -610,7 +610,7 @@ footer p{
     background-position-y: 15vh;
   }
 
-  #about, #porfolio, #contact{
+  #about, #portfolio #contact{
   padding: 10%;
   }
 
@@ -637,6 +637,10 @@ footer p{
 
   footer{
     padding: 5% 10%;
+  }
+
+  footer h1{
+    font-size: 3.5vh;
   }
 }
 
