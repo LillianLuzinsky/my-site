@@ -762,10 +762,8 @@ footer p{
   }
 }
 
-
-
 @media (max-width: 360px){
-  
+
   .nav-links{
     height: 100vh;
     width: 65vw;
@@ -776,11 +774,15 @@ footer p{
     background: black;
   }
 
-  .burger{
-    margin-right: 7%;
-    margin-top: 10%;
+  nav{
+    height: 25vh;
+    height: 150px;
   }
 
+  .progress-container, .progress-bar {
+    margin-top: 75px;
+  }
+  
   .title{
     margin-top: 10vh;
   }
@@ -806,10 +808,17 @@ footer p{
     left: 35px;
   }
 
+  #subheading{
+    font-size: 2.5vh;
+    width: 50%;
+    top: 25%;
+  }
+
   #resume-button{
-    top: 520px;
-    left: 30px;
-    font-size: 3vh;
+    font-size: 1rem;
+    bottom: 10%;
+    left: 10%;
+    height: 33px;
   }
 
   .title{
@@ -843,14 +852,26 @@ footer p{
     font-size: 1.7rem;
     margin-top: 1.5rem;
   }
+
+  #contact-section a{
+    font-size: 1.2rem;
+  }
   
   p, footer p{
     font-size: 1rem;
     line-height: 2rem;
   }
 
+  main{
+    width: 100%;
+  }
+
   footer{
-    padding: 0 35px;
+    padding: 0 10%;
+  }
+
+  footer h1{
+    font-size: 2rem;
   }
 
 }
