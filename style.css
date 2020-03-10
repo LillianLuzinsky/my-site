@@ -468,7 +468,7 @@ footer p{
   }
 
   #hi, #im, #lillian{
-    font-size: 4rem;
+    font-size: 9.5vh;
     position: fixed;
     z-index: 2;
     color: white;
@@ -476,22 +476,22 @@ footer p{
   }
 
   #hi{
-    top: 15px;
-    left: 50px;
-    width: 80px;
-    height: 80px;
+    top: 2%;
+    left: 5%;
+    width: 8.5%;
+    height: 11%;
     color: black;
     background: #F037A5;
   }
 
   #im{
-    top: 15px;
-    left: 150px;
+    top: 1.2%;
+    left: 160px;
   }
 
   #lillian{
-    left: 60px;
-    top: 90px;
+    left: 5%;
+    top: 12%;
   }
 
   #subheading{
