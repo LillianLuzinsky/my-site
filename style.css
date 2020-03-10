@@ -496,7 +496,7 @@ footer p{
 
   #subheading{
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 60px;
     width: 50vw;
     font-size: 3vh;
@@ -506,11 +506,11 @@ footer p{
 
   #resume-button{
     left: 60px;
-    top: 60%;
     font-size: 2.5vh;
     padding: 8px 20px;
     background: #8e8e8e;
     color: white;
+    height: 50px;
   }
 
   #about, #porfolio, #contact{
@@ -581,7 +581,7 @@ footer p{
 
   #subheading{
     left: 10%;
-    top: 27%;
+    top: 30%;
     width: 40vw;
     font-size: 2.5vh;
     line-height: 5.5vh;
@@ -589,11 +589,11 @@ footer p{
   }
 
   #resume-button{
-    top: 75%;
     font-size: 2.5vh;
     padding: 8px 20px;
     background: #8e8e8e;
     color: white;
+    bottom: 20%;
   }
 
   #home{
