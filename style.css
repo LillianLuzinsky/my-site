@@ -33,7 +33,6 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Has to be min 10vh for responsive.*/
   min-height: 10vh;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -68,6 +67,7 @@ nav{
   width: 0;
   height: 3px;
   background-color: #F037A5;
+  margin-top: 4px;
 }
 
 .sliding-bar:hover::after{
