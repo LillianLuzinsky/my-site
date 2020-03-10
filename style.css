@@ -213,7 +213,7 @@ Burger menu
   position: absolute;
   left: 15vw;
   bottom: 10vh;
-  height: 60px;
+  height: 55px;
 }
 
 #resume-button:hover{
@@ -639,53 +639,53 @@ footer p{
   }
 
   #hi, #im, #lillian{
-    font-size: 2rem;
+    font-size: 9vh;
     color: #F037A5;
   }
 
   #hi{
     color: black;
-    width: 45px;
-    height: 45px;
-    top: 8px;
+    width: 6.5%;
+    height: 11%;
+    top: 2%;
     left: 60px;
   }
 
   #im{
-    top: 12px;
-    left: 120px;
+    top: 2%;
+    left: 115px;
   }
 
   #lillian{
     letter-spacing: 3px;
-    top: 50px;
+    top: 12vh;
     left: 65px;
   }
 
   #subheading{
     width: 60%;
-    top: 30vh;
-    font-size: 1.2rem;
+    top: 35%;
+    font-size: 4vh;
     line-height: 3rem;
-    line-height: 7vh;
+    line-height: 8.5vh;
     letter-spacing: 1px;
   }
 
   #resume-button{
-    top: 250px;
     font-size: 4vh;
-    padding: 8px 20px;
-    background: #8e8e8e;
-    color: white;
+    padding: 5px 20px;
+    height: 30px;
+    bottom: 15%;
   }
 
   .title{
     font-size: 15vh;
     margin: 0;
+    margin-bottom: 10px;
     padding-top: 10vh;
   }
 
-  p{
+  p, footer p{
     font-size: 4vh;
     line-height: 7vh;
   }
@@ -698,9 +698,17 @@ footer p{
     height: auto;
   }
 
+  #contact-section{
+    margin-bottom: 10vh;
+  }
+
   #contact-section h1{
     font-size: 8vh;
   }
+
+  #contact a{
+  font-size: 5vh;
+}
 
   .email, .mobile, .follow{
     margin-bottom: 30px;
@@ -712,9 +720,13 @@ footer p{
     margin-top: -70vh;
   }
 
+  footer h1{
+    padding-top: 3vh;
+    margin-bottom: 5vh;
+    font-size: 7vh;
+  }
+
   footer p{
-    font-size: 1rem;
-    line-height: 2.5rem;
     margin-bottom: 5vh;
   }
 }
