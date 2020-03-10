@@ -25,7 +25,7 @@ const navSlide = () => {
 
 navSlide();
 
-console.log("Hello");
+console.log("Hello, I hope you enjoyed my portfolio. I'm still learning how to make them responsive and accesible. I welcome any constructive feedback. Have a good day :)");
 
 window.onscroll = function() {
   progressBar();
