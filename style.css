@@ -221,7 +221,7 @@ Burger menu
   transition: 0.5s;
 }
 
-video, button:focus {outline:0;}
+button:focus {outline:0;}
 
 .title{
   color: white;
@@ -229,7 +229,7 @@ video, button:focus {outline:0;}
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 10vh;
+  margin-top: 12.5vh;
   margin-bottom: 5vh;
 }
 
@@ -256,7 +256,7 @@ p{
 }
 
 #portfolio h2{
-  font-size: 3.5rem;
+  font-size: 7.5vh;
   margin-bottom: 20px;
 }
 
@@ -284,11 +284,6 @@ img{
   box-shadow: 1px 1px 10px black;
 }
 
-video{
-  border-radius: 5px;
-  margin-bottom: 10vh;
-}
-
 #tic-tac-section{
   display: flex;
   flex-direction: row;
@@ -313,7 +308,7 @@ video{
 }
 
 #contact-section h1{
-  font-size: 2rem;
+  font-size: 7vh;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -332,7 +327,7 @@ video{
 
 #contact a{
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 3vh;
   letter-spacing: 2px;
   text-decoration: none;
 }
