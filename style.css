@@ -169,16 +169,9 @@ Burger menu
   align-items: center;
   top: 15vh;
   left: 14vw;
-  width: 120px;
-  height: 120px;
+  width: 10%;
+  height: 20%;
   border-radius: 300px;
-}
-
-@media (max-width: 1920px){
-  #hi{
-    width: 300px;
-    height: 300px;
-  }
 }
 
 #im{
@@ -208,7 +201,7 @@ Burger menu
   margin: 2vh 0;
 }
 
-button{
+#resume-button{
   color: #8e8e8e;
   font-size: 3.2vh;
   border: none;
@@ -220,7 +213,7 @@ button{
   background: transparent;
 }
 
-button:hover{
+#resume-button:hover{
   background: #8e8e8e;
   color: white;
   transition: 0.5s;
