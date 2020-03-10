@@ -153,7 +153,6 @@ Burger menu
   align-items: center;
   background: url('./images/Homepage_photo.jpg') center no-repeat;
   background-size: cover;
-  background-color: white;
 }
 
 #hi, #im, #lillian{
@@ -169,20 +168,20 @@ Burger menu
   align-items: center;
   top: 15vh;
   left: 14vw;
-  width: 10%;
-  height: 20%;
+  width: 20vh;
+  height: 20vh;
   border-radius: 300px;
 }
 
 #im{
   color: turquoise;
-  top: 32.5vh;
+  top: 35vh;
   left: 15vw;
 }
 
 #lillian{
   color: #F037A5;
-  top: 32.5vh;
+  top: 35vh;
   left: 27vw;
   letter-spacing: 2.5px;
 }
@@ -190,13 +189,13 @@ Burger menu
 #subheading{
   color: black;
   position: absolute;
-  top: 50vh;
+  top: 55vh;
   left: 15vw;
   width: 45vw;
   font-weight: 400;
   font-size: 3.2vh;
   letter-spacing: 1px;
-  line-height:3rem;
+  line-height:6.5vh;
   font-family: 'Open Sans', sans-serif ;
   margin: 2vh 0;
 }
@@ -211,6 +210,9 @@ Burger menu
   border: 1.5px solid #8e8e8e;
   transition: 0.5s;
   background: transparent;
+  position: absolute;
+  left: 15vw;
+  bottom: 10vh;
 }
 
 #resume-button:hover{
@@ -220,12 +222,6 @@ Burger menu
 }
 
 video, button:focus {outline:0;}
-
-#resume-button{
-  position: absolute;
-  left: 15vw;
-  top: 77.5vh;
-}
 
 .title{
   color: white;
