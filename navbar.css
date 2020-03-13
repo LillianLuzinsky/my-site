@@ -1,0 +1,25 @@
+
+
+@media (min-width: 640px){
+  .hello__lillian--copy {
+    color: blue;
+  }
+}
+
+@media (min-width: 960px){
+  .hello__lillian--copy {
+    color: green;
+  }
+}
+
+@media (min-width: 1024px){
+  .hello__lillian--copy {
+    color: white;
+  }
+}
+
+@media (min-width: 1200px){
+  .hello__lillian--copy {
+    color: red;
+  }
+}
