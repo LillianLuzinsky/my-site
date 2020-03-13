@@ -156,7 +156,7 @@ Burger menu
 }
 
 #hi, #im, #lillian{
-  font-size: 14vh;
+  font-size: 7.5vw;
   position: absolute;
 }
 
@@ -193,7 +193,7 @@ Burger menu
   left: 15vw;
   width: 45vw;
   font-weight: 400;
-  font-size: 3.2vh;
+  font-size: 1.5vw;
   letter-spacing: 1px;
   line-height:7vh;
   font-family: 'Open Sans', sans-serif ;
@@ -202,10 +202,10 @@ Burger menu
 
 #resume-button{
   color: #8e8e8e;
-  font-size: 3.2vh;
+  font-size: 1.5vw;
+  padding: 8px 20px;
   border: none;
   cursor: pointer;
-  padding: 10px 30px;
   border-radius: 100px;
   border: 1.5px solid #8e8e8e;
   transition: 0.5s;
@@ -213,7 +213,6 @@ Burger menu
   position: absolute;
   left: 15vw;
   bottom: 10vh;
-  height: 55px;
 }
 
 #resume-button:hover{
