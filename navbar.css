@@ -93,39 +93,38 @@ burger
     background-color: #F037A5;
   }
 
-.sliding-bar:hover::after{
-  width: 100%;
-  transition: width .5s;
-}
+  .sliding-bar:hover::after{
+    width: 100%;
+    transition: width .5s;
+  }
 
-nav .nav-links #home-link:hover{
-  color: #F037A5;
-} 
+  nav .nav-links #home-link:hover{
+    color: #F037A5;
+  } 
 
-nav .nav-links #about-link:hover{
-  color: yellow;
-} 
+  nav .nav-links #about-link:hover{
+    color: yellow;
+  } 
 
-nav .nav-links #about-link.sliding-bar:hover::after{
-  background-color: yellow;
-} 
+  nav .nav-links #about-link.sliding-bar:hover::after{
+    background-color: yellow;
+  } 
 
-nav .nav-links .portfolio-link:hover{
-  color: turquoise;
-} 
+  nav .nav-links #portfolio-link:hover{
+    color: turquoise;
+  } 
 
-nav .nav-links .portfolio-link .sliding-bar:hover::after{
-  background-color: turquoise;
-} 
+  nav .nav-links #portfolio-link.sliding-bar:hover::after{
+    background-color: turquoise;
+  } 
 
-nav .nav-links #contact-link:hover{
-  color: white;
-} 
+  nav .nav-links #contact-link:hover{
+    color: white;
+  } 
 
-nav .nav-links #contact-link.sliding-bar:hover::after{
-  background-color: white;
-} 
-
+  nav .nav-links #contact-link.sliding-bar:hover::after{
+    background-color: white;
+  } 
 }
 
 .nav-active{
