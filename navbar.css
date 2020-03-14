@@ -103,6 +103,7 @@ burger
   nav {
    height: 10vh;
    width: 100%;
+   color: white;
   }
 
   /*****************
@@ -120,6 +121,18 @@ burger
     padding: 0 200px;
     width: 100%;
     transform: translateX(0%);
+  }
+
+  nav .nav-links #home-link{
+    color: white;
+  }
+
+  nav .nav-links #about-link{
+    color: white;
+  }
+
+  nav .nav-links #portfolio-link{
+    color: white;
   }
 
   .sliding-bar::after{
