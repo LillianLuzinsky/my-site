@@ -163,6 +163,10 @@ desktop
     font-size: 30px;
   }
 
+  .project-link a.sliding-bar:hover::after{
+    background-color: turquoise;
+  } 
+
   #tictac-section img{
     margin: 0 25%;
     width: 75%;
