@@ -29,6 +29,7 @@
   position: absolute;
   top: 75px;
   left: 35px;
+  letter-spacing: 1px;
 }
 
 /****************
@@ -92,6 +93,7 @@ laptop size
     top: 250px;
     left: 380px;
     color: #F037A5;
+
   }
 }
 
