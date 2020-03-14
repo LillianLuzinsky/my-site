@@ -92,3 +92,21 @@ tablet
     line-height: 60px;
   }
 }
+
+/**************
+desktop
+***************/
+
+@media (min-width: 1024px){
+
+  #contact{
+    height: 100vh;
+    padding: 15vh 200px;
+  }
+
+  #contact .title{
+    font-size: 6.5vw;
+  }
+
+  
+}

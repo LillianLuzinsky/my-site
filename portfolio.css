@@ -136,13 +136,17 @@ tablet
   }
 }
 
+/**************
+desktop
+***************/
+
 @media (min-width: 1024px){
   #portfolio{
     padding: 15vh 200px;
   }
 
   #portfolio .title{
-    font-size: 5vw;
+    font-size: 6.5vw;
   }
 
   #portfolio p{
@@ -156,6 +160,7 @@ tablet
   }
 
   #tictac-section img{
-    margin: 0 30%;
+    margin: 0 25%;
+    width: 75%;
   }
 }
