@@ -72,5 +72,6 @@ desktop
   footer p{
     font-size: 1.5vw;
     line-height: 3vw;
+    padding-bottom: 10vh;
   }
 }
