@@ -127,6 +127,13 @@ tablet
   #portfolio img{
     margin-bottom: 50px;
   }
+
+  #tictac-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1024px){
@@ -146,15 +153,6 @@ tablet
 
   .project-link a{
     font-size: 30px;
-  }
-
-  #tictac-section{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 250px;
   }
 
   #tictac-section img{
