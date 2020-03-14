@@ -96,13 +96,36 @@ tablet
 
 @media (min-width: 960px){
   
+  #portfolio{
+    padding: 70px;
+  }
+  
   #portfolio .title{
-    font-size: 85px;
+    font-size: 100px;
+    margin-bottom: 30px;
   }
 
-   #portfolio p{
-    font-size: 25px;
-    line-height: 50px;
+  #portfolio h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  #portfolio p{
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .project{
+    margin-bottom: 100px;
+  }
+
+  .project-link a{
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  #portfolio img{
+    margin-bottom: 50px;
   }
 }
 

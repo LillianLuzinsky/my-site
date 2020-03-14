@@ -29,13 +29,12 @@ tablet
 @media (min-width: 960px){
 
   #about{
-  padding: 70px;
-}
+    padding: 70px;
+  }
   
   #about .title{
     font-size: 100px;
     margin-bottom: 30px;
-
   }
 
    #about p{
