@@ -53,17 +53,13 @@
 }
 
 @media (min-width: 640px){
-
-  #portfolio{
-  padding-right: 50px;
-}
   
   #portfolio .title{
     font-size: 70px;
   }
 
   #portfolio h2{
-    font-size: 40px;
+    font-size: 45px;
   }
 
   #portfolio p{
@@ -83,13 +79,14 @@
     margin-bottom: 30px;
   }
 
-  .tictac-section{
+  #tictac-section{
     width: 50%;
     margin: 0 auto;
   }
 
-  .tictac{
-    border-radius: 50px;
+  #tictac-section img{
+    border: solid 1px #444444;
+    border-radius: 30px;
   }
 }
 
