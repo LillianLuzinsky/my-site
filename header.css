@@ -60,7 +60,7 @@ tablet size
 }
 
 /****************
-desktop size
+laptop size
 *****************/
 
 
@@ -92,5 +92,15 @@ desktop size
     top: 250px;
     left: 380px;
     color: #F037A5;
+  }
+}
+
+/****************
+desktop size
+*****************/
+
+@media (min-width: 1920px){
+  .hi{
+    top: 300px;
   }
 }
