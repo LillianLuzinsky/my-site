@@ -82,16 +82,15 @@ button:focus {outline:0;}
   }
 
   #home-container{
-   padding-top: 0;
    position: relative;
   }
 
   .subheading{
-    position: absolute;
-    left: 200px;
-    top: 55vh;
+    margin-left: 130px;
+    margin-top: 10vh;
     font-size: 25px;
-    line-height: 60px;
+    font-size: 1.7vw;
+    line-height: 3.5vw;
   }
 
   .resume-button{
@@ -99,9 +98,9 @@ button:focus {outline:0;}
     color: #8e8e8e;
     background: transparent;
     border: 1.5px solid #8e8e8e;
-    position: absolute;
-    left: 200px;
-    top: 85vh;
+    margin-left: 130px;
+    margin-top: -17vh;
+    font-size: 1.7vw;
   }
 
   .resume-button:hover{
