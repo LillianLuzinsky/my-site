@@ -81,17 +81,13 @@ button:focus {outline:0;}
     background-size: cover;
   }
 
-  /* #home-container{
-   padding-top: 2%;
-   position: relative;
-  } */
-
   .subheading{
     position: absolute;
     left: 200px;
     top: 55vh;
     font-size: 25px;
     line-height: 60px;
+    line-height: 4vw;
   }
 
   .resume-button{
