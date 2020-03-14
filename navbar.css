@@ -51,47 +51,6 @@ nav-links
 
 }
 
-.sliding-bar::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 3px;
-  background-color: #F037A5;
-}
-
-.sliding-bar:hover::after{
-  width: 100%;
-  transition: width .5s;
-}
-
-nav .nav-links #home-link:hover{
-  color: #F037A5;
-} 
-
-nav .nav-links #about-link:hover{
-  color: yellow;
-} 
-
-nav .nav-links #about-link.sliding-bar:hover::after{
-  background-color: yellow;
-} 
-
-nav .nav-links #portfolio-link:hover{
-  color: turquoise;
-} 
-
-nav .nav-links #portfolio-link.sliding-bar:hover::after{
-  background-color: turquoise;
-} 
-
-nav .nav-links #contact-link:hover{
-  color: white;
-} 
-
-nav .nav-links #contact-link.sliding-bar:hover::after{
-  background-color: white;
-} 
-
 @media (min-width: 640px){
 
   nav {
@@ -119,4 +78,75 @@ nav .nav-links #contact-link.sliding-bar:hover::after{
    height: 10vh;
   }
 
+  .sliding-bar::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #F037A5;
+}
+
+.sliding-bar:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+
+nav .nav-links #home-link:hover{
+  color: #F037A5;
+} 
+
+nav .nav-links #about-link:hover{
+  color: yellow;
+} 
+
+nav .nav-links #about-link.sliding-bar:hover::after{
+  background-color: yellow;
+} 
+
+nav .nav-links .portfolio-link:hover{
+  color: turquoise;
+} 
+
+nav .nav-links .portfolio-link .sliding-bar:hover::after{
+  background-color: turquoise;
+} 
+
+nav .nav-links #contact-link:hover{
+  color: white;
+} 
+
+nav .nav-links #contact-link.sliding-bar:hover::after{
+  background-color: white;
+} 
+
+}
+
+.nav-active{
+    transform: translateX(0%);
+  }
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 10px);
+  height: 4px;
+  background: white;
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -10px);
+  height: 4px;
+  background: white;
 }

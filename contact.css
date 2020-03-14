@@ -25,6 +25,7 @@
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 1px;
+  display: inline-block;
 }
 
 /*******************
@@ -106,6 +107,14 @@ desktop
 
   #contact .title{
     font-size: 6.5vw;
+  }
+
+  #contact h1{
+    font-size: 40px;
+  }
+
+  #contact a{
+    font-size: 25px;
   }
 
   
