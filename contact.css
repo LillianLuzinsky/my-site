@@ -90,7 +90,6 @@ tablet
 
    #contact a{
     font-size: 35px;
-    line-height: 60px;
   }
 }
 
@@ -116,6 +115,34 @@ desktop
   #contact a{
     font-size: 25px;
   }
+
+  /*************
+  hover effects
+  **************/
+
+  .email a:hover{
+    color: yellow;
+  }
+
+  .email a.sliding-bar:hover::after{
+    background-color: yellow;
+  } 
+
+  .mobile a:hover{
+    color: turquoise;
+  }
+
+  .mobile a.sliding-bar:hover::after{
+    background-color: turquoise;
+  } 
+
+  .follow a:hover{
+    color: #F037A5;
+  }
+
+  .follow a.sliding-bar:hover::after{
+    background-color: #F037A5;
+  } 
 
   
 }
