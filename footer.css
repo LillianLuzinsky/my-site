@@ -21,3 +21,37 @@ footer p{
   line-height: 30px;
   letter-spacing: 1px;
 }
+
+@media (min-width: 640px){
+  
+  footer{
+    height: 75vh;
+  }
+
+  footer h1{
+    margin-bottom: 20px;
+  }
+}
+
+/**************
+tablet
+***************/
+
+@media (min-width: 960px){
+
+  footer{
+    height: 75vh;
+    padding: 70px;
+  }
+
+  footer h1{
+    font-size: 50px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+
+  footer p{
+    font-size: 25px;
+    line-height: 45px;
+  }
+}
