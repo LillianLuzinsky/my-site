@@ -54,9 +54,34 @@
 }
 
 @media (min-width: 640px){
+
+  #portfolio{
+  padding-right: 50px;
+}
   
   #portfolio .title{
     font-size: 70px;
+  }
+
+  #portfolio h2{
+    font-size: 40px;
+  }
+
+  #portfolio p{
+    margin-bottom: 30px;
+  }
+
+  .project-link a{
+    color: turquoise;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  #portfolio img{
+    margin-bottom: 30px;
   }
 }
 
