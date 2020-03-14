@@ -12,8 +12,49 @@ nav{
 }
 
 .nav-links{
-  display: none;
-}
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin: 0;
+    padding-top: 50px;
+    background: rgb(11, 11, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform .5s ease-in;
+  }
+
+  .nav-links li{
+    list-style: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .nav-links a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5rem;
+  }
+
+  nav .nav-links #home-link{
+    color: #F037A5;
+  }
+
+  nav .nav-links #about-link{
+    color: yellow;
+  }
+
+  nav .nav-links #portfolio-link{
+    color: turquoise;
+  }
+
+  nav .nav-links #contact-link{
+    color: white;
+  }
 
 /********************
 burger
@@ -74,17 +115,9 @@ burger
     font-weight: 700;
     letter-spacing: 2px;
     width: 100%;
+    height: 10vh;
     margin: 0 200px;
-  }
-
-  .nav-links li{
-    list-style: none;
-  }
-
-  .nav-links a{
-    color: white;
-    text-decoration: none;
-    line-height: 1.5rem;
+    background: red;
   }
 
   .sliding-bar::after{

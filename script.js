@@ -30,11 +30,11 @@ window.onscroll = function() {
 };
 
 function progressBar() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height =
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height =
     document.documentElement.scrollHeight -
     document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
+  let scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
