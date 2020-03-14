@@ -89,6 +89,7 @@ laptop size
     height: 100vh;
     background: url("./images/Homepage_photo.jpg") center no-repeat;
     background-size: cover;
+    margin-bottom: 0;
   }
 
   .subheading{

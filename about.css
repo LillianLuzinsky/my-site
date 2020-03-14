@@ -52,11 +52,12 @@ desktop
   #about{
     height: 100vh;
     padding: 15vh 200px;
+    margin-bottom: 0;
   }
 
   #about .title{
     font-size: 6.5vw;
-    padding-top: 10vh;
+    padding-top: 0;
   }
 
   #about p{
