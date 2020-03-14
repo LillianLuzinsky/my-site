@@ -1,15 +1,12 @@
 footer{
   background: #F037A5;
-  padding: 35px;
   height: auto;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  display: block;
   z-index: -1;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 35px;
 }
 
 footer h1{
@@ -30,6 +27,9 @@ footer p{
   footer{
     height: 65vh;
     padding: 0 35px;
+    position: fixed;
+    left: 0;
+    right: 0;
   }
 
   footer h1{

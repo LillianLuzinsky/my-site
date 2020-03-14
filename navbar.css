@@ -11,6 +11,10 @@ nav{
   z-index: 1;
 }
 
+.nav-links{
+  display: none;
+}
+
 /********************
 burger
 ********************/
@@ -31,25 +35,6 @@ burger
   z-index: 4;
 }
 
-/*****************
-nav-links
-******************/
-
-.nav-links{
-  height: 100vh;
-}
-
-.nav-links li{
-  list-style: none;
-  margin: 0 20px;
-}
-
-.nav-links a{
-  color: white;
-  text-decoration: none;
-  line-height: 1.5rem;
-
-}
 
 @media (min-width: 640px){
 
@@ -76,6 +61,27 @@ nav-links
 
   nav {
    height: 10vh;
+  }
+
+  /*****************
+  nav-links
+  ******************/
+
+  .nav-links{
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .nav-links li{
+    list-style: none;
+    margin: 0 20px;
+  }
+
+  .nav-links a{
+    color: red;
+    text-decoration: none;
+    line-height: 1.5rem;
   }
 
   .sliding-bar::after{
