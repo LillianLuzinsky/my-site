@@ -62,6 +62,10 @@ follow
   #contact{
     height: 640px;
   }
+
+  .contact-section{
+    height: 50vh;
+  }
   
   #contact .title{
     font-size: 70px;
