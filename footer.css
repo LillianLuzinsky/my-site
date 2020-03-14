@@ -1,0 +1,23 @@
+footer{
+  background: #F037A5;
+  padding: 35px;
+  height: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+footer h1{
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+footer p{
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
