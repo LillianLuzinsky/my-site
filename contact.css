@@ -59,12 +59,9 @@ follow
 
 @media (min-width: 640px){
 
-  #contact{
-    height: 640px;
-  }
-
   .contact-section{
     height: 50vh;
+    justify-content: space-evenly;
   }
   
   #contact .title{
@@ -79,7 +76,6 @@ tablet
 @media (min-width: 960px){
 
   #contact{
-    height: 960px;
     padding: 70px;
   }
   
@@ -95,6 +91,7 @@ tablet
    #contact a{
     font-size: 35px;
   }
+
 }
 
 /**************
@@ -104,7 +101,7 @@ desktop
 @media (min-width: 1024px){
 
   #contact{
-    height: 100vh;
+    height: 125vh;
     padding: 15vh 200px;
   }
 
