@@ -7,6 +7,9 @@ footer{
   right: 0;
   bottom: 0;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 footer h1{
@@ -30,7 +33,13 @@ footer p{
   }
 
   footer h1{
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  footer p{
+    font-size: 20px;
+    line-height: 45px;
   }
 }
 
@@ -44,14 +53,5 @@ tablet
     padding: 0 70px;
   }
 
-  footer h1{
-    font-size: 50px;
-    margin-top: 130px;
-    margin-bottom: 50px;
-  }
-
-  footer p{
-    font-size: 25px;
-    line-height: 45px;
-  }
+  
 }
