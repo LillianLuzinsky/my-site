@@ -143,4 +143,21 @@ tablet
     line-height: 50px;
     width: 75%;
   }
+
+  .project-link a{
+    font-size: 30px;
+  }
+
+  #tictac-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+  }
+
+  #tictac-section img{
+    margin: 0 30%;
+  }
 }
