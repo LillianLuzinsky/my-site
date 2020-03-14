@@ -1,0 +1,54 @@
+#about{
+  padding: 35px;
+  height: auto;
+}
+
+#about .title{
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+#about p{
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 640px){
+  
+  #about .title{
+    font-size: 70px;
+  }
+}
+
+/**************
+tablet
+***************/
+
+@media (min-width: 960px){
+  
+  #about .title{
+    font-size: 85px;
+  }
+
+   #about p{
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+
+/**************
+desktop
+***************/
+
+@media (min-width: 1024px){
+  #about{
+    height: 100vh;
+    padding: 15vh 200px;
+  }
+
+  #about .title{
+    font-size: 100px;
+  }
+}
