@@ -25,7 +25,8 @@ footer p{
 @media (min-width: 640px){
   
   footer{
-    height: auto;
+    height: 65vh;
+    padding: 0 35px;
   }
 
   footer h1{
@@ -40,7 +41,7 @@ tablet
 @media (min-width: 960px){
 
   footer{
-    padding: 70px;
+    padding: 0 70px;
   }
 
   footer h1{
