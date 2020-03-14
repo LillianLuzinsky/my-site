@@ -67,8 +67,7 @@ laptop size
 @media (min-width: 1024px){
 
   .home-title{
-    /* font-size: 70px; */
-    font-size: 5vw;
+    font-size: 70px;
     position: absolute;
     z-index: 0;
   }
