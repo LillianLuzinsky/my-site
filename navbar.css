@@ -68,8 +68,11 @@ burger
   ******************/
 
   .nav-links{
+    width: 500px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+   align-items: center;
     font-weight: 700;
     letter-spacing: 2px;
   }
