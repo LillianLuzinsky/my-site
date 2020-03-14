@@ -81,10 +81,10 @@ button:focus {outline:0;}
     background-size: cover;
   }
 
-  #home-container{
+  /* #home-container{
    padding-top: 2%;
    position: relative;
-  }
+  } */
 
   .subheading{
     position: absolute;
