@@ -8,10 +8,10 @@
 }
 
 .contact-section{
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 .contact-section h1{
