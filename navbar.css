@@ -1,25 +1,122 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 150px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+}
 
+/********************
+burger
+********************/
+
+.burger div{
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.burger{
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 35px;
+  z-index: 4;
+}
+
+/*****************
+nav-links
+******************/
+
+.nav-links{
+  height: 100vh;
+}
+
+.nav-links li{
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  line-height: 1.5rem;
+
+}
+
+.sliding-bar::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #F037A5;
+}
+
+.sliding-bar:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+
+nav .nav-links #home-link:hover{
+  color: #F037A5;
+} 
+
+nav .nav-links #about-link:hover{
+  color: yellow;
+} 
+
+nav .nav-links #about-link.sliding-bar:hover::after{
+  background-color: yellow;
+} 
+
+nav .nav-links #portfolio-link:hover{
+  color: turquoise;
+} 
+
+nav .nav-links #portfolio-link.sliding-bar:hover::after{
+  background-color: turquoise;
+} 
+
+nav .nav-links #contact-link:hover{
+  color: white;
+} 
+
+nav .nav-links #contact-link.sliding-bar:hover::after{
+  background-color: white;
+} 
 
 @media (min-width: 640px){
-  .hello__lillian--copy {
-    color: blue;
+
+  nav {
+   height: 150px;
+  }
+
+  .burger{
+    right: 35px;
   }
 }
 
 @media (min-width: 960px){
-  .hello__lillian--copy {
-    color: green;
+  nav {
+   height: 250px;
+  }
+
+  .burger{
+    right: 60px;
   }
 }
 
 @media (min-width: 1024px){
-  .hello__lillian--copy {
-    color: white;
-  }
-}
 
-@media (min-width: 1200px){
-  .hello__lillian--copy {
-    color: red;
+  nav {
+   height: 10vh;
   }
+
 }
