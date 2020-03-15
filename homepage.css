@@ -19,22 +19,6 @@
   left: 35px;
 }
 
-.resume-button{
-  color: white;
-  background:#8e8e8e;
-  font-size: 15px;
-  padding: 8px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 100px;
-  transition: 0.5s;
-  position: absolute;
-  left: 35px;
-  top: 470px;
-}
-
-button:focus {outline:0;}
-
 @media (min-width: 640px){
   #home{
     height: 640px;
@@ -47,13 +31,6 @@ button:focus {outline:0;}
     font-size: 20px;
     line-height: 50px;
   }
-
-  .resume-button{
-    font-size: 20px;
-    top: 500px;
-    padding: 10px 20px;
-  }
-
 }
 
 /****************
@@ -71,12 +48,6 @@ tablet size
     width: 550px;
     font-size: 30px;
     line-height: 70px;
-  }
-
-  .resume-button{
-    font-size: 30px;
-    top: 750px;
-    left: 70px;
   }
 }
 
@@ -100,21 +71,6 @@ laptop size
     line-height: 60px;
   }
 
-  .resume-button{
-    font-size: 20px;
-    color: #8e8e8e;
-    background: transparent;
-    border: 1.5px solid #8e8e8e;
-    position: absolute;
-    left: 200px;
-    top: 85vh;
-  }
-
-  .resume-button:hover{
-    background: #8e8e8e;
-    color: white;
-    transition: 0.5s;
-  }
 }
 
 /****************
