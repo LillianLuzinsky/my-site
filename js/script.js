@@ -39,5 +39,5 @@ function progressBar() {
 }
 
 console.log(
-  "Hello, I hope you enjoyed my portfolio. I'm still learning how to make them responsive and accesible websites. I welcome any constructive feedback. Have a good day :)"
+  "Hello, I hope you enjoyed my portfolio and thank you for taking the time to have a look at it. I welcome any constructive feedback. Have a good day :)"
 );

@@ -1,6 +1,6 @@
 #home{
   height: 100vh;
-  background: url("./images/Homepage_photo.jpg") center no-repeat;
+  background: url("../images/Homepage_photo.jpg") center no-repeat;
   background-size: cover;
   background-position-x: 80%;
   background-position-y: 12vh;
@@ -58,7 +58,7 @@ laptop size
 @media (min-width: 1024px){
   #home{
     height: 100vh;
-    background: url("./images/Homepage_photo.jpg") center no-repeat;
+    background: url("../images/Homepage_photo.jpg") center no-repeat;
     background-size: cover;
     margin-bottom: 0;
   }
