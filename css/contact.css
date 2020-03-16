@@ -60,7 +60,7 @@ follow
 @media (min-width: 640px){
 
   #contact{
-    height: 150vh;
+    height: auto;
   }
 
   .contact-section{
