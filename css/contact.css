@@ -59,6 +59,10 @@ follow
 
 @media (min-width: 640px){
 
+  #contact{
+    height: 150vh;
+  }
+
   .contact-section{
     height: 50vh;
     justify-content: space-evenly;
