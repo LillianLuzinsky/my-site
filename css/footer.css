@@ -51,8 +51,7 @@ tablet
 @media (min-width: 960px){
 
   footer{
-    height: 100vh;
-    padding: 0 70px;
+    padding: 70px;
   }
 }
 
