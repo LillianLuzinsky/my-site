@@ -52,7 +52,6 @@ tablet size
 @media (min-width: 960px){
 
   .resume-button{
-    font-size: 30px;
     top: 750px;
     left: 70px;
   }
@@ -65,8 +64,6 @@ laptop size
 @media (min-width: 1024px){
 
   .resume-button{
-    font-size: 20px;
-    color: black;
     left: 200px;
     top: 85vh;
   }
