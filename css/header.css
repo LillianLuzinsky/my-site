@@ -107,7 +107,11 @@ desktop size
     top: 150px;
   }
 
-  .im, .lillian{
-    top: 300px;
+  .im{
+    top: 350px;
+  }
+
+  .lillian{
+    top: 350px;
   }
 }
