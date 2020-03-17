@@ -104,11 +104,10 @@ desktop size
 @media (min-width: 1920px){
 
   .hi{
-    top: 200px;
+    top: 150px;
   }
 
-  .im{
+  .im, .lillian{
     top: 300px;
   }
-
 }
