@@ -103,4 +103,12 @@ desktop size
 
 @media (min-width: 1920px){
 
+  .hi{
+    top: 350px;
+  }
+
+  .im{
+    top: 500px;
+  }
+
 }
