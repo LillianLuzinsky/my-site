@@ -122,6 +122,10 @@ desktop
     font-size: 25px;
   }
 
+  .contact-section{
+    height: 65vh;
+  }
+
   /*************
   hover effects
   **************/
