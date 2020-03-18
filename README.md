@@ -5,7 +5,7 @@ https://lillianluzinsky.github.io/website/
 
 ---
 
-## “As a Graduate Web Developer, I built this portfolio where I can share the projects and tech that I have worked with so far.”
+## “As a Graduate Web Developer, I built this portfolio where I can share a little about myself, my projects and my contact info.”
 
 # Thank you!
 
