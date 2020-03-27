@@ -37,6 +37,6 @@ function progressBar() {
 }
 
 console.log(
-  "%cHello, I hope you enjoyed my portfolio and thank you for taking the time to have a look at it. I welcome any constructive feedback. Have a good day :)",
-  "font-size: 20px; color: #F037A5"
+  "%cThank you for taking the time to look at my portfolio, I hope you enjoyed browsing through. Feel free to contact me, I would love to hear from your feedback. Have a good day :)",
+  "font-size: 20px; color: #F037A5;"
 );
