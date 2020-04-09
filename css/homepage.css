@@ -66,9 +66,10 @@ laptop size
   .subheading{
     position: absolute;
     left: 200px;
-    top: 800px;
+    top: 600px;
     font-size: 25px;
     line-height: 60px;
+    color: red;
   }
 
 }
