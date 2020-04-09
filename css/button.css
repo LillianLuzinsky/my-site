@@ -65,6 +65,18 @@ laptop size
 
   .resume-button{
     left: 200px;
-    top: 85vh;
+    top: 625px;
+  }
+}
+
+/****************
+desktop size
+*****************/
+
+@media (min-width: 1920px){
+ 
+  .resume-button{
+    top: 800px;
+    background: blue;
   }
 }
