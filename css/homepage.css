@@ -67,6 +67,7 @@ laptop size
     position: absolute;
     left: 200px;
     top: 55vh;
+    top: 100vh;
     font-size: 25px;
     line-height: 60px;
   }
