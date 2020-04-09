@@ -69,7 +69,6 @@ laptop size
     top: 400px;
     font-size: 25px;
     line-height: 60px;
-    color: red;
   }
 
 }
@@ -80,8 +79,7 @@ desktop size
 
 @media (min-width: 1920px){
   .subheading{
-    top: 600px;
-    color: blue;
+    top: 500px;
   }
   
 }
