@@ -67,7 +67,6 @@ laptop size
     position: absolute;
     left: 200px;
     top: 55vh;
-    top: 400px;
     font-size: 25px;
     line-height: 60px;
   }
@@ -79,5 +78,9 @@ desktop size
 *****************/
 
 @media (min-width: 1920px){
+
+  .subheading{
+    top: 60vh;
+  }
   
 }
