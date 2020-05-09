@@ -16,6 +16,24 @@
   letter-spacing: 1px;
 }
 
+#ga{
+  display: inline-block;
+  color: yellow;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+#ga.sliding-bar::after{
+  content: '';
+  display: block;
+  width: 0;
+}
+
+#ga.sliding-bar:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+
 @media (min-width: 640px){
   
   #about .title{

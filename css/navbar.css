@@ -140,7 +140,7 @@ burger
     display: block;
     width: 0;
     height: 3px;
-    background-color: #F037A5;
+    background-color: yellow;
   }
 
   .sliding-bar:hover::after{
@@ -150,6 +150,10 @@ burger
 
   nav .nav-links #home-link:hover{
     color: #F037A5;
+  } 
+
+  nav .nav-links #home-link.sliding-bar:hover::after{
+    background-color: #F037A5;
   } 
 
   nav .nav-links #about-link:hover{
