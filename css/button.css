@@ -8,12 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 15px;
     left: 35px;
     top: 85vh;
     border-radius: 100px;
-    height: 40px;
-    width: 200px;
-    font-size: 20px;
+    height: 35px;
+    width: 180px;
+    font-size: 17.5px;
   }
 
   .contact-button::before{
@@ -48,10 +49,10 @@
     border: 1.5px solid white;
     border-radius: 100px;
     padding: 5px 10px;
-    height: 40px;
-    width: 215px;
     text-align: right;
-    font-size: 20px;
+    height: 35px;
+    width: 190px;
+    font-size: 17.5px;
   }
 
   .resume-button::before{
@@ -80,14 +81,12 @@
 
 button:focus {outline:0;}
 
-/* @media (min-width: 640px){
+@media (min-width: 640px){
 
   .contact-button{
-    font-size: 20px;
     top: 500px;
-    padding: 10px 20px;
   }
-} */
+}
 
 /****************
 tablet size
@@ -98,6 +97,9 @@ tablet size
   .contact-button{
     top: 750px;
     left: 70px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
   }
 }
 
