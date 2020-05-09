@@ -1,20 +1,25 @@
 
-.resume-button{
+.contact-button{
     text-decoration: none;
     color: black;
     background: white;
     border: 1.5px solid #bbbbbb;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     left: 35px;
     top: 85vh;
     border-radius: 100px;
-    padding: 5px 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
   }
 
-   .resume-button::before{
+  .contact-button::before{
 		transition: all 0.5s;
 		content: '';
-		width: 25%;
+		width: 17.5%;
 		height: 100%;
     background: #bbbbbb;
     border-radius: 100px;
@@ -24,7 +29,7 @@
     mix-blend-mode: multiply;
   }
 
-  .resume-button:hover::before{
+  .contact-button:hover::before{
 		transition: all 0.5s ease;
 		content: '';
 		width: 100%;
@@ -34,11 +39,50 @@
     mix-blend-mode: multiply;
   }
 
+  .resume-button{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background: #111111;
+    border: 1.5px solid white;
+    border-radius: 100px;
+    padding: 5px 10px;
+    height: 40px;
+    width: 215px;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .resume-button::before{
+		transition: all 0.5s;
+    content: '';
+    position: absolute;
+		top: 0;
+    left: 0;
+		width: 17.5%;
+		height: 100%;
+    background: white;
+    border-radius: 100px;
+    mix-blend-mode: screen;
+    mix-blend-mode: difference;
+  }
+
+  .resume-button:hover::before{
+		transition: all 0.5s ease;
+    content: '';
+    display: block;
+		width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius:100px;
+  }
+
 button:focus {outline:0;}
 
 @media (min-width: 640px){
 
-  .resume-button{
+  .contact-button{
     font-size: 20px;
     top: 500px;
     padding: 10px 20px;
@@ -51,7 +95,7 @@ tablet size
 
 @media (min-width: 960px){
 
-  .resume-button{
+  .contact-button{
     top: 750px;
     left: 70px;
   }
@@ -63,7 +107,7 @@ laptop size
 
 @media (min-width: 1024px){
 
-  .resume-button{
+  .contact-button{
     left: 200px;
     top: 625px;
   }
@@ -75,7 +119,7 @@ desktop size
 
 @media (min-width: 1920px){
  
-  .resume-button{
+  .contact-button{
     top: 725px;
   }
 }
