@@ -101,6 +101,12 @@ tablet size
     width: 200px;
     font-size: 20px;
   }
+
+  .resume-button{
+    height: 40px;
+    width: 215px;
+    font-size: 20px;
+  }
 }
 
 /****************
